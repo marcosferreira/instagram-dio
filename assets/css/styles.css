@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 main {
@@ -35,7 +37,41 @@ section.login > div.instagram-smartphones > img {
 section.login > div.instagram-continue {
   width: 350px;
   height: 340px;
+  padding: 40px;
   border-radius: 1px;
   border: 1px solid #dbdbdb;
   background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.login > div.instagram-continue > img.logo {
+  width: 180px;
+}
+
+section.login > div.instagram-continue > img.profile {
+  width: 100px;
+  border-radius: 50%;
+}
+
+section.login > div.instagram-continue > button.continue-facebook {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0095f6;
+  font-weight: 500;
+}
+
+section.login > div.instagram-continue > p {
+  font-size: 14px;
+}
+
+section.login > div.instagram-continue > p > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0095f6;
 }
