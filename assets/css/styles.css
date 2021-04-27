@@ -6,6 +6,14 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: #fafafa;
+}
+
+button {
+  cursor: pointer;
+}
+
 main {
   width: 100%;
   padding: 32px;
@@ -59,7 +67,7 @@ section.login > div.instagram-continue > img.profile {
 
 section.login > div.instagram-continue > button.continue-facebook {
   border: none;
-  padding: 5px 20px;
+  padding: 8px 20px;
   border-radius: 4px;
   color: #fff;
   background-color: #0095f6;
@@ -74,4 +82,145 @@ section.login > div.instagram-continue > p > a {
   text-decoration: none;
   font-weight: 500;
   color: #0095f6;
+}
+
+section.login > div.wrapper-authentication {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section.login > div.wrapper-authentication > div.instagram-authentication {
+  width: 350px;
+  min-height: 380px;
+  padding: 40px;
+  border-radius: 1px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > img.logo {
+  width: 180px;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > form {
+  width: 100%;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > form
+  > input {
+  width: 100%;
+  margin: 2px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+
+  outline: none;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > form
+  > button.signin {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #0095f6;
+  font-weight: 500;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > div.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > div.separator
+  > div {
+  width: 100%;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > div.separator
+  > p {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > a.signin-facebook {
+  text-decoration: none;
+  color: #385185;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section.login
+  > div.wrapper-authentication
+  > div.instagram-authentication
+  > small
+  > a {
+  text-decoration: none;
+  color: #385185;
+  font-size: 12px;
+}
+
+section.login > div.wrapper-authentication > div.instragram-signup {
+  width: 350px;
+  min-height: 60px;
+  padding: 20px;
+  border-radius: 1px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.login > div.wrapper-authentication > div.instragram-signup > p {
+  font-size: 14px;
+}
+
+section.login > div.wrapper-authentication > div.instragram-signup > p > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0095f6;
+  font-weight: 600;
 }
