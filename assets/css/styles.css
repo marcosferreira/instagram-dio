@@ -1,16 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 main {
   width: 100%;
-  padding: 30px;
+  padding: 32px;
   background-color: #fafafa;
 }
 
 section.login {
-  max-width: 900px;
+  max-width: 824px;
   margin: 0 auto;
   display: flex;
 }
@@ -19,4 +20,12 @@ section.login > div.instagram-smartphones {
   width: 455px;
   height: 620px;
   background-image: url("../img/smartphones.png");
+
+  position: relative;
+}
+
+section.login > div.instagram-smartphones > img {
+  position: absolute;
+  top: 100px;
+  right: 64px;
 }
