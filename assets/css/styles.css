@@ -14,6 +14,8 @@ section.login {
   max-width: 824px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
+  gap: 0px;
 }
 
 section.login > div.instagram-smartphones {
@@ -28,4 +30,12 @@ section.login > div.instagram-smartphones > img {
   position: absolute;
   top: 100px;
   right: 64px;
+}
+
+section.login > div.instagram-continue {
+  width: 350px;
+  height: 340px;
+  border-radius: 1px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
 }
