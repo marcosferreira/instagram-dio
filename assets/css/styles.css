@@ -8,6 +8,7 @@
 
 body {
   background-color: #fafafa;
+  font-size: 14px;
 }
 
 button {
@@ -87,6 +88,8 @@ section.login > div.instagram-continue > p > a {
 section.login > div.wrapper-authentication {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -223,4 +226,50 @@ section.login > div.wrapper-authentication > div.instragram-signup > p > a {
   text-decoration: none;
   color: #0095f6;
   font-weight: 600;
+}
+
+section.login > div.wrapper-authentication > div.store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+section.login > div.wrapper-authentication > div.store a {
+  text-decoration: none;
+}
+
+section.login > div.wrapper-authentication > div.store > a > img {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  section.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.login > div.instagram-smartphones {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  section.login > div.instagram-continue {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  section.login > div.wrapper-authentication > div.instagram-authentication {
+    background-color: transparent;
+    border: none;
+  }
+
+  section.login > div.wrapper-authentication > div.instragram-signup {
+    background-color: transparent;
+    border: none;
+  }
 }
