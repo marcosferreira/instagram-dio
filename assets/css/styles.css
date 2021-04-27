@@ -19,4 +19,12 @@ section.login > div.instagram-smartphones {
   width: 455px;
   height: 620px;
   background-image: url("../img/smartphones.png");
+
+  position: relative;
+}
+
+section.login > div.instagram-smartphones > img {
+  position: absolute;
+  top: 100px;
+  right: 65px;
 }
